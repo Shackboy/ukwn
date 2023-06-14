@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    z-index: -1;
+  }
+.error-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.words {
+  text-align: center;
+  font-family: 'TheGoodMonolith', sans-serif;
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 5rem;
+}
